@@ -2,10 +2,10 @@ package cn.xr.model.base;
 
 import cn.xr.model.Nameable;
 import com.google.common.base.Objects;
-import com.sun.istack.internal.NotNull;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
+import javax.validation.constraints.NotNull;
 
 @MappedSuperclass
 public abstract class NameEntity extends JPAEntity<Long> implements Nameable {
@@ -54,6 +54,6 @@ public abstract class NameEntity extends JPAEntity<Long> implements Nameable {
 
     @Override
     public String toString() {
-        return Objects.toStringHelper(this).add("id", getId()).add("name", name).toString();
+        return Objects.toStringHelper(this).add("id", getId()).add("name2", name).toString();
     }
 }

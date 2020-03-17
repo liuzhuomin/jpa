@@ -176,7 +176,7 @@ public interface PersistenceService<T, ID> {
     T findUniqueByProperty(String name, Object value);
 
     /**
-     * 同findByProperty("name", value);
+     * 同findByProperty("name2", value);
      *
      * @param value 条件的值
      * @return 最终查询出来的结果集
@@ -184,7 +184,7 @@ public interface PersistenceService<T, ID> {
     List<T> findByName(Object value);
 
     /**
-     * 同findUniqueByProperty("name", value);
+     * 同findUniqueByProperty("name2", value);
      *
      * @param value 条件的值
      * @return 最终查询出来的单个结果

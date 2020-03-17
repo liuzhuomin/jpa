@@ -19,7 +19,7 @@ import java.io.Serializable;
 public abstract class JPAEntity<ID extends Serializable> implements Idable<ID>, Serializable {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO )
 	protected ID id;
 
 	public ID getId() {

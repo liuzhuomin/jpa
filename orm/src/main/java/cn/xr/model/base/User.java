@@ -9,8 +9,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * 用户.
  */
-@Entity
-@Table(name = "tu_user")
+//@Entity
+//@Table(name = "tu_user")
 @XmlRootElement
 public class User extends JPAEntity implements IUser {
 

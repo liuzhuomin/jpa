@@ -19,7 +19,6 @@
         <genericdao.version>1.2.0</genericdao.version>
         <guava.version>18.0</guava.version>
         <junit.version>4.8.2</junit.version>
-        <jackson.version>1.9.9</jackson.version>
         <jpa.api.version>1.0.0.Final</jpa.api.version>
         <hibernate.version>5.0.2.Final</hibernate.version>
         <javax.validation.version>2.0.1.Final</javax.validation.version>
@@ -28,10 +27,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <lombok.version>1.18.2</lombok.version>
+<!--        <version>1.9.13</version>-->
+        <codehaus.version>1.9.9</codehaus.version>
         <fastjson.version>1.2.47</fastjson.version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.6</version>
+        </dependency>
+
+
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -48,7 +57,7 @@
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-core-asl</artifactId>
-            <version>${jackson.version}</version>
+            <version>${codehaus.version}</version>
             <scope>provided</scope>
         </dependency>
 

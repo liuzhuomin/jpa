@@ -16,7 +16,7 @@ public class JPAServiceConfiguration {
 
 	/**
 	 * Creates a new {@link JPAServiceConfiguration} from the given {@link JPAServiceConfigurationSource} and
-	 * interface name.
+	 * interface name2.
 	 * 
 	 * @param configurationSource must not be {@literal null}.
 	 * @param interfaceName must not be {@literal null} or empty.
@@ -40,7 +40,7 @@ public class JPAServiceConfiguration {
 	}
 
 	/**
-	 * Returns the interface name of the repository.
+	 * Returns the interface name2 of the repository.
 	 * 
 	 * @return
 	 */
@@ -49,7 +49,7 @@ public class JPAServiceConfiguration {
 	}
 
 	/**
-	 * Returns the class name of the custom implementation.
+	 * Returns the class name2 of the custom implementation.
 	 * 
 	 * @return
 	 */
@@ -58,7 +58,7 @@ public class JPAServiceConfiguration {
 	}
 
 	/**
-	 * Returns the bean name of the custom implementation.
+	 * Returns the bean name2 of the custom implementation.
 	 * 
 	 * @return
 	 */
@@ -77,7 +77,7 @@ public class JPAServiceConfiguration {
 	}
 
 	/**
-	 * Returns the name of the {@link FactoryBean} class to be used to create repository instances.
+	 * Returns the name2 of the {@link FactoryBean} class to be used to create repository instances.
 	 * 
 	 * @return
 	 */

@@ -12,7 +12,7 @@ interface Resulted<T> {
      * 获取查询结果集.
      *
      * @return 结果列表
-    List<T> list();
+    NewMessageList<T> list();
      */
 
     /**

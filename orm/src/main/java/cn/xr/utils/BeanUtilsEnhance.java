@@ -106,7 +106,7 @@ public class BeanUtilsEnhance {
 	 * @param ignoreFields 忽略字段，可变参数
 	 * @param              <T> 目标的类型
 	 * @param              <Z> 源的类型
-	 * @return 最终返回目标类型的List {@code  List<T>}
+	 * @return 最终返回目标类型的List {@code  NewMessageList<T>}
 	 */
 	public static <T, Z> List<T> copyList(List<Z> sources, Class<T> targetClazz, final String... ignoreFields) {
 		return copyList(sources, targetClazz, (source, target) -> {

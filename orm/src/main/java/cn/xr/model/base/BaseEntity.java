@@ -26,6 +26,6 @@ public abstract class BaseEntity extends JPAEntity<Long> implements Nameable {
 
     @Override
     public String toString() {
-        return Objects.toStringHelper(this).add("id", getId()).add("name", name).toString();
+        return Objects.toStringHelper(this).add("id", getId()).add("name2", name).toString();
     }
 }

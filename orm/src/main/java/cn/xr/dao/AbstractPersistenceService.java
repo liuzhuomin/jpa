@@ -9,7 +9,6 @@ import java.util.List;
 import javax.persistence.EntityManager;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -18,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional(readOnly = true)
 //@Component
 public class AbstractPersistenceService<T, ID extends Serializable> implements PersistenceService<T, ID>, JPAContext {
-    private static final String PROPERTY_NAME = "name";
+    private static final String PROPERTY_NAME = "name2";
 
     protected JPADao jpaDao;
 
