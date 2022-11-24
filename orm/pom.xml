@@ -20,7 +20,7 @@
         <guava.version>18.0</guava.version>
         <junit.version>4.8.2</junit.version>
         <jpa.api.version>1.0.0.Final</jpa.api.version>
-        <hibernate.version>5.0.2.Final</hibernate.version>
+        <hibernate.version>5.3.20.Final</hibernate.version>
         <javax.validation.version>2.0.1.Final</javax.validation.version>
         <jcip-annotations.version>1.0</jcip-annotations.version>
         <springframework.version>3.2.4.RELEASE</springframework.version>
